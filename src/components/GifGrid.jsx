@@ -7,7 +7,7 @@ function GifGrid({ category }) {
   return (
     <>
       <h3>{category}</h3>
-      {isLoading && <h1>Cargando...</h1>}
+      {isLoading && <h1>Cargando...</h1>} 
       <div className='card-grid'>
         {images.map(image => {
           return (
